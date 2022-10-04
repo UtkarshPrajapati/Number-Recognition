@@ -46,32 +46,28 @@ I have made a Handwriting Recognizer of Numbers. It uses the MNIST dataset to tr
 ### Basic Interface:-
 ![Basic Interface](https://github.com/UtkarshPrajapati/Number-Recognition/blob/228ee58d82c275d8566b390d4f6728006750c48d/media/Basic_Interface.png)
 
-### Moving Cursor with Index Finger Movement:-
-![Moving Cursor with Index Finger Movement](https://github.com/UtkarshPrajapati/Number-Recognition/blob/844c0a68673a55d05d086aa468ce7aa6e43eb129/media/Moving%20Cursor%20Demo.gif)
+### Recognition of Number:-
+![Recognition of Number](https://github.com/UtkarshPrajapati/Number-Recognition/blob/844c0a68673a55d05d086aa468ce7aa6e43eb129/media/Moving%20Cursor%20Demo.gif)
 
-### Clicking on Screen(By touching Thumb & Little Finger):-
-![Clicking on Screen](https://github.com/UtkarshPrajapati/Number-Recognition/blob/844c0a68673a55d05d086aa468ce7aa6e43eb129/media/Clicking%20on%20Screen.gif)
 
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Uses Open Computer Vision (OpenCV)\
-:heavy_check_mark: Tracks hands and Finger Tips Efficiently\
-:heavy_check_mark: Moves the cursor according to the Hand Gestures & Placement of Index Finger  in the Camera Frame. \
-:heavy_check_mark: Can click the screen when Thumb & Little Finger are touched with each other.
+:heavy_check_mark: Uses MNIST dataset \
+:heavy_check_mark: Has accuracy of 99.55% \
+:heavy_check_mark: Uses Support Vector Machine 
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
 - [Numpy](https://numpy.org/)
-- [Pandas](https://pandas.pydata.org/)
+- [Scikit Learn](https://scikit-learn.org/)
 - [Matplotlib](https://matplotlib.org/)
-- [OpenCV](https://opencv.org/)
 
 ## :white_check_mark: Requirements ##
 
-Before starting, you need to have [Git](https://git-scm.com) & basic Deep Learning libraries installed.
+Before starting, you need to have [Git](https://git-scm.com) & basic Machine Learning libraries installed.
 
 ## :checkered_flag: Starting ##
 
@@ -86,7 +82,7 @@ $ cd Number-Recognition
 $ pip install -r requirements.txt
 
 # Run the project
-$ jupyter nbconvert --execute Mouse Controller.ipynb
+$ jupyter nbconvert --execute NumberRecognition.ipynb
 
 ```
 
