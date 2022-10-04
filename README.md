@@ -44,7 +44,7 @@ I have made a Handwriting Recognizer of Numbers. It uses the MNIST dataset to tr
 ## :dart: How To Use ##
 
 ### Basic Interface:-
-![Basic Interface](https://github.com/UtkarshPrajapati/Number-Recognition/blob/6b85122436aa3ecfd90b64133dc53c94bafa17a4/images/Basic%20Interface%20Introduction.png)
+![Basic Interface](https://github.com/UtkarshPrajapati/Number-Recognition/blob/228ee58d82c275d8566b390d4f6728006750c48d/media/Basic_Interface.png)
 
 ### Moving Cursor with Index Finger Movement:-
 ![Moving Cursor with Index Finger Movement](https://github.com/UtkarshPrajapati/Number-Recognition/blob/844c0a68673a55d05d086aa468ce7aa6e43eb129/media/Moving%20Cursor%20Demo.gif)
